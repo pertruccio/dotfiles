@@ -1,6 +1,6 @@
 export ZSH="/root/.oh-my-zsh"
 ZSH_THEME="agnoster"
-plugins=(git)
+plugins=(git k)
 source $ZSH/oh-my-zsh.sh
 # aliases
 alias ll="ls -al"
