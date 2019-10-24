@@ -11,6 +11,7 @@ neofetch
 BULLETTRAIN_PROMPT_ORDER=(
   time
   status
+  context
   dir
   git
 )
