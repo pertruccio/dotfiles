@@ -1,11 +1,11 @@
 export ZSH="/root/.oh-my-zsh"
 # themes
-if [[ "$(tty)" == "/dev/pts*" ]]; then
-    # theme for ssh
-    ZSH_THEME="bullet-train"
-else
-    # theme for local console
+if [[ "$(tty)" == "/dev/tty*" ]]; then
+    # theme for tty
     ZSH_THEME="agnoster"
+else
+    # theme for ssh console
+    ZSH_THEME="bullet-train"
 fi
 
 plugins=(git k)
