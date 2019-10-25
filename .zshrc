@@ -1,6 +1,6 @@
 export ZSH="/root/.oh-my-zsh"
 # themes
-if [[ -n $SSH_CONNECTION ]]; then
+if [[ "$(tty)" == "/dev/pts*" ]]; then
     # theme for ssh
     ZSH_THEME="bullet-train"
 else
