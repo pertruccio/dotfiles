@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Admin
+#	email = admin@FXMBPC02V80WLG8WNDreikorn.local
+name = pertruccio
+email = 1328703+pertruccio@users.noreply.github.com
+[credential]
+	helper = osxkeychain
