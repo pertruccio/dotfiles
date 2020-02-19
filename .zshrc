@@ -15,7 +15,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
-alias ans_pull="ansible-pull -U https://github.com/pertruccio/freebsd_ws_ansible --vault-password-file=~/.vault_file"
+alias ans_pull="ansible-pull -U https://github.com/pertruccio/freebsd_ws_ansible -i inventory --vault-password-file=~/.vault_file"
 # start neofetch ... a little bit fancyness in the shell
 neofetch
 # theme customization
