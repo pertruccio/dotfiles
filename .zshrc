@@ -23,3 +23,4 @@ neofetch
 
 # PATH
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/root/.cargo/bin:$PATH"
