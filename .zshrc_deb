@@ -6,6 +6,9 @@ plugins=(history git colorize github pip python zsh-syntax-highlighting cp extra
 source $ZSH/oh-my-zsh.sh
 ENABLE_CORRECTION="true"
 
+# config for bat
+export BAT_CONFIG_PATH="~/gits/dotfiles/.batconf"
+
 # aliases
 alias ll='lsd -la'
 alias tinc='sudo /usr/local/sbin/tinc -c ~/Library/tinc --pidfile ~/Library/tinc/pid'
