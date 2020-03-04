@@ -2,7 +2,7 @@ export ZSH="/root/.oh-my-zsh"
 # themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 # zsh options
-plugins=(history git colorize github pip python zsh-syntax-highlighting cp extract k httpie zsh-autosuggestions tmux)
+plugins=(history git colorize github pip python zsh-syntax-highlighting cp extract httpie zsh-autosuggestions tmux)
 source $ZSH/oh-my-zsh.sh
 ENABLE_CORRECTION="true"
 
