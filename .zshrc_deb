@@ -7,7 +7,7 @@ source $ZSH/oh-my-zsh.sh
 ENABLE_CORRECTION="true"
 
 # config for bat
-export BAT_CONFIG_PATH="~/gits/dotfiles/.batconf"
+export BAT_CONFIG_PATH="~/.dotfiles/.batconf"
 
 # aliases
 alias ll='lsd -la'
