@@ -1,4 +1,4 @@
-export ZSH="/root/.oh-my-zsh"
+export ZSH="{{ ohmyzsh_install_dir }}"
 # themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 # zsh options
@@ -7,7 +7,7 @@ source $ZSH/oh-my-zsh.sh
 ENABLE_CORRECTION="true"
 
 # config for bat
-export BAT_CONFIG_PATH="~/.dotfiles/.batconf"
+export BAT_CONFIG_PATH="/usr/local/src/git/.dotfiles/.batconf"
 
 # aliases
 alias ll='lsd -la'
