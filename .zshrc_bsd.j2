@@ -6,6 +6,9 @@ plugins=(history git colorize github pip python zsh-syntax-highlighting cp extra
 source $ZSH/oh-my-zsh.sh
 ENABLE_CORRECTION="true"
 
+# VARS
+export EDITOR=nano
+
 # config for bat
 export BAT_CONFIG_PATH="/usr/local/src/git/.dotfiles/.batconf"
 
@@ -13,7 +16,6 @@ export BAT_CONFIG_PATH="/usr/local/src/git/.dotfiles/.batconf"
 alias ll='lsd -la'
 alias tinc='sudo /usr/local/sbin/tinc -c ~/Library/tinc --pidfile ~/Library/tinc/pid'
 alias tincd='sudo /usr/local/sbin/tincd -c ~/Library/tinc --pidfile ~/Library/tinc/pid'
-alias edit='code'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
