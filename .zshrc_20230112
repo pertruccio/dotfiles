@@ -1,0 +1,17 @@
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export ZSH="$HOME/.oh-my-zsh"
+export BAT_CONFIG_PATH="~/gits/dotfiles/.batconf"
+export EDITOR=micro
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting history)
+
+source $ZSH/oh-my-zsh.sh
+
+alias ll='exa -la --icons --colour-scale'
+alias fd='/usr/lib/cargo/bin/fd'
+alias cat='batcat'
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
